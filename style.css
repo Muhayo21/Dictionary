@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f27466;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dictionary-box {
+  background-color: #f9a396;
+  padding: 40px;
+  border-radius: 60px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.dictionary-box h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.dictionary-box input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #fff;
+  background-color: #ffc2cb;
+  outline: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dictionary-box p {
+  font-size: 14px;
+  color: #000;
+}
+
+#play-audio {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#play-audio:hover {
+  backgrou
